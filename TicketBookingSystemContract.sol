@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 contract TicketBookingSystem {
     address public owner;
-    uint public ticketPrice = 0.1 ether;
+    uint public ticketPrice = 1 ether;
     uint public totalTickets;
     uint public ticketsSold;
 
